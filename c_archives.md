@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Archives
+title: Архив
 permalink: /archives/
 ---
 

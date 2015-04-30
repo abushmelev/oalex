@@ -7,7 +7,7 @@ description: "Блог безумного программиста в стати
 keywords: "Jekyll, программирование"
 baseurl: "/oalex" # the subpath of your site, e.g. /blog/
 url: "https://abushmelev.github.io/" # the base hostname & protocol for your site
-locale: ru
+locale: "ru"
 
 ### Personal info and site tools info:
 twitter_username: bushmelev
