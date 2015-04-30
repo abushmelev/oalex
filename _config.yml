@@ -1,30 +1,44 @@
 ### Site info:
-title: Freshman21
-tagline: Another Jekyll theme, Freshman twenty-first
-author: Lijia Yu
-email: yu@lijiayu.net
+title: Записки безумного программиста
+tagline: Программировать, программировать и еще раз программировать, как завещал великий...
+author: Алекс О
+email: bushmelev@gmail.com
 description: "Freshman21 is a Jekyll blog theme." # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
 keywords: "Jekyll, theme, Freshman21"
-baseurl: "/freshman21" # the subpath of your site, e.g. /blog/
-url: "http://yulijia.net/freshman21" # the base hostname & protocol for your site
-locale: en_US
+baseurl: "/oalex" # the subpath of your site, e.g. /blog/
+url: "https://abushmelev.github.io/" # the base hostname & protocol for your site
+locale: ru_RU
 
 ### Personal info and site tools info:
-twitter_username: yulijia
-github_username:  yulijia
-disqus_shortname: freshman21
+twitter_username: bushmelev
+github_username:  abushmelev
+disqus_shortname: oalex
 favicon:     "/images/favicon.ico"
-aboutme: Hi, this is Lijia Yu. I made the Freshman21 theme. Please enjoy it. # these are shown on aboutme-sidebar.
-aboutme_photo: https://i.imgur.com/Mdc4szJl.jpg# your photo.
-google_analytics_key: UA-57979084-1 # put YOUR key here to enable tracking! (blank to disable)
+aboutme: Привет, меня зовут Алекс О. В меру упитанный, в самом расцвете сил. Я программист. # these are shown on aboutme-sidebar.
+aboutme_photo: /images/favicon.ico # your photo.
+google_analytics_key:  # put YOUR key here to enable tracking! (blank to disable)
 
 
 ### Site setting:
 ShowContactInfo: "True" # Personal Info (twitter,github,email) can be seen on aboutme-sidebar, those info only shown where ShowContactInfo == True
 default_column: "two" # blog style: two columns, if default_column != "two", you will see a one column blog.
-default_locale: "en" # blog sidebar language set, only include: English(en) and Chinese (cn)
+default_locale: "ru" # blog sidebar language set, only include: English(en) and Chinese (cn)
 
 locales:
+    ru:
+      Aboutme: "Обо мне"
+      Archives: "Архивы"
+      Blogroll: "Записки"        
+      Categories: "Категории"    
+      Copyright_Notice: "Авторские права"
+      Recent_Posts: "Последние записи"
+      Tags: "Теги" 
+      Previous: "Обратно"
+      Next: "Туда"
+      PostedInCategories: "Отправлено в"   
+      Taggedwith: "| таггед"
+      PostDate: "| записано: "
+      Google_search: "поиск"
     en:
       Aboutme: "About Me"
       Archives: "Archives"
@@ -39,20 +53,6 @@ locales:
       Taggedwith: "and tagged"
       PostDate: "on "
       Google_search: "Site Search"
-    cn:
-      Aboutme: "关于我"
-      Archives: "存档"
-      Blogroll: "良师益友"        
-      Categories: "分类目录"    
-      Copyright_Notice: "版权声明"
-      Recent_Posts: "近期文章"
-      Tags: "标签" 
-      Previous: "前一页"
-      Next: "后一页"
-      PostedInCategories: "目录:"   
-      Taggedwith: "| 标签:"
-      PostDate: "| 发表时间: "
-      Google_search: "站内搜索"
 ### your Blogroll info, only name can shown on the page.
 
 Blogroll:
@@ -60,8 +60,8 @@ Blogroll:
         href: http://yulijia.net/freshman
         title: Another Jekyll blog theme
       - name: author's website
-        href: http://yulijia.net/
-        title: Lijia Yu's website
+        href: http://bushmelev.ru/
+        title: Мир кода Алекса О
 
 
 ### Build settings
