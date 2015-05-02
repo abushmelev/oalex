@@ -12,7 +12,7 @@ locale: "ru"
 ### Personal info and site tools info:
 twitter_username: bushmelev
 github_username:  abushmelev
-disqus_shortname: o_alex
+disqus_shortname: oalex
 favicon:     "/images/favicon.ico"
 aboutme: Привет, меня зовут Алекс О. В меру упитанный, в самом расцвете сил. Я программист. Программирую на работе, на лево, по дороге в метро, в перерывах между всем этим. Мое хобби - программирование. Пробовал разводить кактусы - засохли.# these are shown on aboutme-sidebar.
 aboutme_photo: /images/favicon.ico # your photo.
