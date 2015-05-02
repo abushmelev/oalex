@@ -57,10 +57,10 @@ locales:
 Blogroll:
       - name:  Алекс О
         href: http://bushmelev.ru/
-        title: Другой
+        title: Миры Бушмелевых
       - name: author's website
-        href: http://bushmelev.ru/
-        title: Мир кода Алекса О
+        href: http://appplantation.com/
+        title: App Plantation
 
 
 ### Build settings
