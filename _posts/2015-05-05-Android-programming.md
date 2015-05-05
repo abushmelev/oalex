@@ -1,6 +1,6 @@
 ---
 published: true
-title: Программираование на android-телефоне 
+title: Программирование на android-телефоне 
 layout: post
 author: Алекс О 
 categories: [articles, Редакторы и IDE, Рецепты приготовления Vim]
