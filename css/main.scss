@@ -3,8 +3,6 @@
 ---
 @charset "utf-8";
 
-
-
 // Our variables
 $base-font-family: 'Open Sans', Helvetica, Arial, sans-serif !important;
 $base-font-size:   16px;
@@ -49,8 +47,6 @@ $on-laptop:        800px;
     }
 }
 
-
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
@@ -61,3 +57,16 @@ $on-laptop:        800px;
 @import url('http://fonts.googleapis.com/css?family=Open+Sans');
 
 @import url('http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+/* <link href='http://fonts.googleapis.com/css?family=PT+Mono&subset=latin,cyrillic,cyrillic-ext,latin-ext' rel='stylesheet' type='text/css'> */
+/*@import url(http://fonts.googleapis.com/css?family=PT+Mono&subset=latin,cyrillic,cyrillic-ext,latin-ext);*/ 
+
+/*<link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,400italic,700italic,700&subset=latin,cyrillic,cyrillic-ext,latin-ext' rel='stylesheet' type='text/css'> */
+/*@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,400italic,700italic,700&subset=latin,cyrillic,cyrillic-ext,latin-ext);*/ 
+
+/*<link href='http://fonts.googleapis.com/css?family=Anonymous+Pro:400,400italic,700,700italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>*/
+@import url('http://fonts.googleapis.com/css?family=Anonymous+Pro:400,400italic,700,700italic&subset=latin,cyrillic'); 
+
+code { 
+    font-family: 'Anonymous Pro', monospace;
+}
