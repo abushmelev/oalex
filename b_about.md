@@ -5,24 +5,20 @@ comments: yes
 permalink: /about/
 ---
 
+"Записки безумного программиста" преследуют следующие цели:
 
-### Freshman21 is a Jekyll theme.
+1) Собрать в одном месте заметки и информацию о различных установках, апдейтах, хитростях и т.д., с которыми я столкнулся, и которые следует запомнить, в первую очередь для себя. Вот, например, пришлось перепрошивать полумертвый планшет, а вся история о перепрошивках андроидных телефонов не сохранилась. Хорошо бы сохранить. Поэтому и *"Записки"*
 
-A tribute to Twenty Twelve and Twenty eleven.
+2) За долгие годы беспросветного кодинга на всевозможных языках и устройствах накопилось множество безумных идей и опыта. В общем, хочется пографоманствовать немного. Поэтому *"безумного"*.
 
-I like wordpress's theme Twenty Twelve and Twenty eleven very much. 
-So I called my Jekyll theme Freshman21 (Freshman <q>twenty-first</q> , it means twenty-first century, not twenty-one), this theme is based on my former theme [Freshman](https://github.com/yulijia/freshman/).
+3) Безусловно, речь тут пойдет исключительно о программировании и от лица неистового *"программиста"*, возможно, такого, каким хотелось бы быть, или, наоборот, не хотелось бы...
 
-Freshman21 have two main page format, one is [single column](http://yulijia.net/en/  "see demo"), the other is two columns. For more details, please see the articles on the site.
+Почему Алекс О? Потому что Алекс, и потому что часто, когда я появляюсь где-нибудь, кто-то неприменно восклицает: "О! это ты!?" На что я обычно отвечаю: "Нет, это не я. Это мой брат близнец". Так вот, это блог моего брата близнеца.
 
-<cite>Proudly enjoy using Freshman21 theme.</cite> <code>;)</code>
+Ну, и в завершении и в подтверждении правильности названия блога публикую заявление об авторских правах, которое посоветовал сделать один мудрый человек в момент, когда Faсebook вдруг изменил свою политику.
 
-<img title="麋鹿" src="https://i.imgur.com/Mdc4szJl.jpg" alt="麋鹿" width="580" height="668" />
-
-#### Hi, the picture you have seen in the sample-page is a Père David's deer photoed by my friend at Beijing Milu Park, China.
-
-
-Milu(麋鹿) is the chinese name of Père David's deer.
-
-All photos on this website are copyrighted material and all rights are reserved.
-
+*В ответ на новые политики "Facebook" и еже с ним, настоящим я объявляю, 
+что все мои персональные данные, фотографии, рисунки, переписка и так далее, 
+являются объектами моего авторского права (согласно Бернской Конвенции). 
+ДЛЯ КОММЕРЧЕСКОГО ИСПОЛЬЗОВАНИЯ всех вышеупомянутых объектов авторского права 
+в каждом конкретном случае необходимо мое письменное разрешение.*

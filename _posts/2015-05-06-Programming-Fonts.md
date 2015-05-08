@@ -4,9 +4,10 @@ title: Программистские шрифты
 modified: 2015-05-06
 layout: post
 author: Алекс О 
-categories: [articles, Howto]
+categories: [articles, programming]
 tags:
 - configure
+- font
 comments: true
 ---
 
