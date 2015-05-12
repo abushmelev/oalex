@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Sample Post
+icon: fa fa-wrench
 excerpt: "Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more."
 categories: articles
 tags: [sample-post]

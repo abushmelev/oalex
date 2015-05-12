@@ -1,6 +1,7 @@
 ---
 published: true
 title: How to create post summary
+icon: fa fa-wrench
 layout: post
 summary: This post show us how to create a post summary step by step. 
 author: Yu 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to set the config.yml file
+icon: fa fa-wrench
 modified: 2014-12-19
 categories: [articles, Howto]
 tags: 

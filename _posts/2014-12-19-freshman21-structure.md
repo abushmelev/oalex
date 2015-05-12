@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Theme structure
+icon: fa fa-wrench
 modified: 2014-12-19
 categories: [articles, Howto]
 tags: 

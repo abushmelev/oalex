@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to install this theme
+icon: fa fa-wrench
 categories: articles
 tags: [sample-post]
 comments: true
