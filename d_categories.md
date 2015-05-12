@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Категории
+icon: fa fa-folder-open-o
 permalink: /categories/
 ---
 
@@ -16,7 +17,7 @@ permalink: /categories/
 <li id="{{ cat[0] }}">{{ cat[0]}}</li>
 {% for post in cat[1] %}
 <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time> &raquo;
-<a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a><br />
+<a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}"><i class="{{ post.icon }}"> </i> {{ post.title }}</a><br />
 {% endfor %}
 {% endfor %}
 {% else %}

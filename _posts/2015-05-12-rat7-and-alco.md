@@ -1,6 +1,7 @@
 ---
 published: true
 title: Мышки и алкоголь
+icon: fa fa-glass
 modified: 2015-05-12
 layout: post
 author: Алекс О 

@@ -1,6 +1,7 @@
 ---
 published: true
 title: Резюме настоящего Си-Пе-Пе программера 26 лет от роду
+icon: fa fa-thumbs-o-up
 layout: post
 author: Алекс О 
 categories: [articles, cpp]

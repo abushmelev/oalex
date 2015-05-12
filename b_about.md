@@ -1,6 +1,7 @@
 ---
 layout: page
-title: О О
+title: О
+icon: fa fa-smile-o
 comments: yes
 permalink: /about/
 ---

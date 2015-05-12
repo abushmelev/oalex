@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Гостевая
+icon: fa fa-book
 comments: yes
 permalink: /guestbook/
 ---

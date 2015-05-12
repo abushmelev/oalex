@@ -1,6 +1,7 @@
 ---
 published: true
 title: Программистские шрифты
+icon: fa fa-font
 modified: 2015-05-06
 layout: post
 author: Алекс О 

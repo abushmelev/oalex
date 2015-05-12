@@ -1,6 +1,7 @@
 ---
 published: true
 title: Программирование на android-телефоне 
+icon: fa fa-android
 layout: post
 author: Алекс О 
 categories: [articles, Редакторы и IDE, Рецепты приготовления Vim]
