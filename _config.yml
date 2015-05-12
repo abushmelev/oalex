@@ -6,7 +6,7 @@ email: bushmelev@gmail.com
 description: "Блог безумного программиста в статике" # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
 keywords: "Jekyll, программирование"
 baseurl: "/oalex" # the subpath of your site, e.g. /blog/
-url: "https://abushmelev.github.io/" # the base hostname & protocol for your site
+url: "https://abushmelev.github.io" # the base hostname & protocol for your site
 locale: "ru"
 
 ### Personal info and site tools info:
