@@ -20,16 +20,16 @@ green     #859900  operators, other keywords
 .highlight .c { color: #58ff58 } /* Comment */
 .highlight .err { color: #ff4d4d } /* Error */
 .highlight .g { color: #ffffff } /* Generic */
-.highlight .k { color: #00a3a3 } /* Keyword */
+.highlight .k { color: #03caca } /* Keyword */
 .highlight .l { color: #ff9204 } /* Literal */
-.highlight .n { color: #93a1a1 } /* Name */
+.highlight .n { color: #c2c2c2 } /* Name */
 .highlight .o { color: #009999 } /* Operator */
 .highlight .x { color: #cb4b16 } /* Other */
 .highlight .p { color: #00ffff } /* Punctuation */
 .highlight .cm { color: #38cc38 } /* Comment.Multiline */
-.highlight .cp { color: #85ff58 } /* Comment.Preproc */
+.highlight .cp { color: #add8e6 } /* Comment.Preproc */
 .highlight .c1 { color: #58ff58 } /* Comment.Single */
-.highlight .cs { color: #85ff58 } /* Comment.Special */
+.highlight .cs { color: #7b9f6e } /* Comment.Special */
 .highlight .gd { color: #2aa198 } /* Generic.Deleted */
 .highlight .ge { color: #93a1a1; font-style: italic } /* Generic.Emph */
 .highlight .gr { color: #dc322f } /* Generic.Error */
@@ -51,17 +51,17 @@ green     #859900  operators, other keywords
 .highlight .s { color: #ff0000 } /* Literal.String */
 .highlight .na { color: #93a1a1 } /* Name.Attribute */
 .highlight .nb { color: #B58900 } /* Name.Builtin */
-.highlight .nc { color: #268bd2 } /* Name.Class */
+.highlight .nc { color: #cee8f9 } /* Name.Class */
 .highlight .no { color: #fafa00 } /* Name.Constant */
 .highlight .nd { color: #268bd2 } /* Name.Decorator */
 .highlight .ni { color: #cb4b16 } /* Name.Entity */
 .highlight .ne { color: #cb4b16 } /* Name.Exception */
-.highlight .nf { color: #268bd2 } /* Name.Function */
+.highlight .nf { color: #75c6ff } /* Name.Function */
 .highlight .nl { color: #ff6100 } /* Name.Label */
 .highlight .nn { color: #93a1a1 } /* Name.Namespace */
 .highlight .nx { color: #ffffff } /* Name.Other */
 .highlight .py { color: #93a1a1 } /* Name.Property */
-.highlight .nt { color: #268bd2 } /* Name.Tag *//* Solarized Dark 
+.highlight .nt { color: #00d9ff } /* Name.Tag *//* Solarized Dark 
 
 /* Make line numbers unselectable: excludes line numbers from copy-paste user ops */
 .highlight .lineno {-webkit-user-select: none;-moz-user-select: none; -o-user-select: none;} 
