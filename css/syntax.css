@@ -1,0 +1,72 @@
+/* Solarized Dark 
+
+For use with Jekyll and Pygments
+
+http://ethanschoonover.com/solarized
+
+SOLARIZED HEX      ROLE
+--------- -------- ------------------------------------------
+base03    #002b36  background
+base01    #586e75  comments / secondary content
+base1     #93a1a1  body text / default code / primary content
+orange    #cb4b16  constants
+red       #dc322f  regex, special keywords
+blue      #268bd2  reserved keywords
+cyan      #2aa198  strings, numbers
+green     #859900  operators, other keywords
+*/
+ 
+.highlight { background-color: #000; color: #ffffff }
+.highlight .c { color: #58ff58 } /* Comment */
+.highlight .err { color: #ff4d4d } /* Error */
+.highlight .g { color: #ffffff } /* Generic */
+.highlight .k { color: #00a3a3 } /* Keyword */
+.highlight .l { color: #ff9204 } /* Literal */
+.highlight .n { color: #93a1a1 } /* Name */
+.highlight .o { color: #009999 } /* Operator */
+.highlight .x { color: #cb4b16 } /* Other */
+.highlight .p { color: #00ffff } /* Punctuation */
+.highlight .cm { color: #38cc38 } /* Comment.Multiline */
+.highlight .cp { color: #85ff58 } /* Comment.Preproc */
+.highlight .c1 { color: #58ff58 } /* Comment.Single */
+.highlight .cs { color: #85ff58 } /* Comment.Special */
+.highlight .gd { color: #2aa198 } /* Generic.Deleted */
+.highlight .ge { color: #93a1a1; font-style: italic } /* Generic.Emph */
+.highlight .gr { color: #dc322f } /* Generic.Error */
+.highlight .gh { color: #cb4b16 } /* Generic.Heading */
+.highlight .gi { color: #859900 } /* Generic.Inserted */
+.highlight .go { color: #93a1a1 } /* Generic.Output */
+.highlight .gp { color: #93a1a1 } /* Generic.Prompt */
+.highlight .gs { color: #93a1a1; font-weight: bold } /* Generic.Strong */
+.highlight .gu { color: #cb4b16 } /* Generic.Subheading */
+.highlight .gt { color: #93a1a1 } /* Generic.Traceback */
+.highlight .kc { color: #ea00fa } /* Keyword.Constant */
+.highlight .kd { color: #268bd2 } /* Keyword.Declaration */
+.highlight .kn { color: #859900 } /* Keyword.Namespace */
+.highlight .kp { color: #859900 } /* Keyword.Pseudo */
+.highlight .kr { color: #268bd2 } /* Keyword.Reserved */
+.highlight .kt { color: #29cccc } /* Keyword.Type */
+.highlight .ld { color: #93a1a1 } /* Literal.Date */
+.highlight .m { color: #ff00da } /* Literal.Number */
+.highlight .s { color: #ff0000 } /* Literal.String */
+.highlight .na { color: #93a1a1 } /* Name.Attribute */
+.highlight .nb { color: #B58900 } /* Name.Builtin */
+.highlight .nc { color: #268bd2 } /* Name.Class */
+.highlight .no { color: #fafa00 } /* Name.Constant */
+.highlight .nd { color: #268bd2 } /* Name.Decorator */
+.highlight .ni { color: #cb4b16 } /* Name.Entity */
+.highlight .ne { color: #cb4b16 } /* Name.Exception */
+.highlight .nf { color: #268bd2 } /* Name.Function */
+.highlight .nl { color: #ff6100 } /* Name.Label */
+.highlight .nn { color: #93a1a1 } /* Name.Namespace */
+.highlight .nx { color: #ffffff } /* Name.Other */
+.highlight .py { color: #93a1a1 } /* Name.Property */
+.highlight .nt { color: #268bd2 } /* Name.Tag *//* Solarized Dark 
+
+/* Make line numbers unselectable: excludes line numbers from copy-paste user ops */
+.highlight .lineno {-webkit-user-select: none;-moz-user-select: none; -o-user-select: none;} 
+.lineno::-moz-selection {background-color: transparent;} /* Mozilla specific */
+.lineno::selection {background-color: transparent;} /* Other major browsers */
+
+.highlight .lineno { color: #aaa; display:inline-block; padding: 0 5px; border-right:1px solid #555; }
+.highlight pre code { display: block; white-space: pre; overflow-x: auto; word-wrap: normal; }
