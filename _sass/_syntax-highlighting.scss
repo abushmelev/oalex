@@ -4,8 +4,8 @@
 .highlight {
     @extend %vertical-rhythm;
 
-    background: #111111; 
-    color: #ffffff ;
+    background: $code-backgroud-color; 
+    color: $code-font-color;
     
     .hll { background-color: #404040 } 
 
