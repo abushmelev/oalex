@@ -16,7 +16,7 @@ disqus_shortname: oalex
 favicon:     "/images/favicon.ico"
 aboutme: Привет, меня зовут Алекс О. В меру упитанный, в самом расцвете сил. Я программист. Программирую на работе, на лево, по дороге в метро, в перерывах между всем этим. Мое хобби - программирование. Пробовал разводить кактусы - засохли.  # these are shown on aboutme-sidebar.
 aboutme_photo: /images/oalex.png # my photo.
-google_analytics_key:  # put YOUR key here to enable tracking! (blank to disable)
+google_analytics_key: UA-20517923-5 # put YOUR key here to enable tracking! (blank to disable)
 
 ### Site setting:
 ShowContactInfo: "True" # Personal Info (twitter,github,email) can be seen on aboutme-sidebar, those info only shown where ShowContactInfo == True
