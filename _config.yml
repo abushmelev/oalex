@@ -2,7 +2,7 @@
 title: Записки безумного программиста
 tagline: Программировать, программировать и еще раз программировать, как завещал великий...
 author: Алекс О
-email: bushmelev@gmail.com
+email: o.alex.dev@gmail.com
 description: "Блог безумного программиста в статике" # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
 keywords: "Jekyll, программирование, vim"
 baseurl: "" # the subpath of your site, e.g. /blog/
