@@ -7,7 +7,7 @@ description: "Блог безумного программиста в стати
 keywords: "Jekyll, программирование, vim"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://oalex.appplantation.com" # the base hostname & protocol for your site
-locale: "ru"
+locale: "ru_RU"
 logo: oalex.png
 
 ### Personal info and site tools info:
@@ -27,7 +27,7 @@ default_column: "two" # blog style: two columns, if default_column != "two", you
 default_locale: "ru" # blog sidebar language set, only include: English(en) and Chinese (cn)
 
 locales:
-    ru:
+    ru_RU:
       Aboutme: "Обо мне"
       Archives: "Архивы"
       Blogroll: "Записки"        
