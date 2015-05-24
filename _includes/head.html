@@ -1,5 +1,7 @@
 <head>
 
+<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width initial-scale=1">
@@ -15,13 +17,6 @@
 {% else %}
 {% assign desc = desc_long | strip_html | truncatewords:50 %}
 {% endif %}
-
-<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-<meta property="og:description" content="{{ desc }}">
-<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
-<meta property="og:site_name" content="{{ site.title }}">
-<meta property="og:locale" content="{{ site.locale }}">
 
 <!-- Twitter Cards -->
 <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
