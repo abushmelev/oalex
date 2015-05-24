@@ -4,15 +4,17 @@ tagline: Программировать, программировать и ещ�
 author: Алекс О
 email: bushmelev@gmail.com
 description: "Блог безумного программиста в статике" # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
-keywords: "Jekyll, программирование"
+keywords: "Jekyll, программирование, vim"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://oalex.appplantation.com" # the base hostname & protocol for your site
+url: "http://oalex.appplantation.com" # the base hostname & protocol for your site
 locale: "ru"
+logo: oalex.png
 
 ### Personal info and site tools info:
-twitter_username: bushmelev
+twitter_username: OAlexDev 
 github_username:  abushmelev
 disqus_shortname: oalex
+googleplus_username: 115436152992135752081
 favicon:     "/images/favicon.ico"
 aboutme: Привет, меня зовут Алекс О. В меру упитанный, в самом расцвете сил. Я программист. Программирую на работе, на лево, по дороге в метро, в перерывах между всем этим. Мое хобби - программирование. Пробовал разводить кактусы - засохли.  # these are shown on aboutme-sidebar.
 aboutme_photo: /images/oalex.png # my photo.
@@ -56,9 +58,6 @@ locales:
 
 Blogroll:
       - name:  Алекс О
-        href: http://bushmelev.ru/
-        title: Миры Бушмелевых
-      - name: author's website
         href: http://appplantation.com/
         title: App Plantation
 
