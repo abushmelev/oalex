@@ -1,24 +1,42 @@
 ---
 published: false
-title: VimTouch и встраивание plugins
-excerpt: VimTouch замечательная реализация vim для AndroidOS. Один из неприятных минусов - встраиваемые плагины при помощи специального приложения. Как установить собственные plugins?
+title:  Инсталляция cmake на macos
+excerpt:  Хитрости установки банального cmake на macos
 icon: fa fa-plug
 autor: O Alex
 date: 2015-06-02
 modified: 2015-06-02
 layout: post
 categories: [articles]
-tags: [vim, VimTouch, plugin, android, CCTools]
+tags: [macos, cmake]
 comments: true
 image:
     feature:
 share: true
 ---
 
-sudo /Applications/CMake.app/Contents/MacOS/CMake
+Приспичило мне тут на медни собрать кое-какую тулзу под `macos`. Ан нет. Оказывается установлена слишком древняя версия `cmake`.
+<!-- more -->
 
-Tools->Install For Command Line Use
+Это разве проблема? Идем на родной сайт [CMake](http://www.cmake.org/download/){:target=\"_blank\"}
+и скачиваем нужную версию. Открываем. Кладем CMake.app куда надо и ... получаем то же самое сообщение. 
+Можно еще удалить старый app, все нужные и нужные файлы из /usr/bin/, сделать линки на новые. Все равно, останутся проблемы типа отсутствия какого-то  CMAKE_ROOT.
 
-which cmake
+Оказывается ларчик просто открывается. Нужно "просто" установить возможность работы из командной строки (ох уж, этот юзер френдли мак). Из терминала запускаем: 
 
-cmake --version
+`sudo /Applications/CMake.app/Contents/MacOS/CMake`
+
+Далее откроется окно программы. Переходим в меню и тыкаемся в пункт:
+
+`Tools->Install For Command Line Use`
+
+В терминале можно увидеть как проходит процесс установки возможности работы в командной строке. Вот, собственно и вся недолга! На всякий пожарный проверяем что и как установилось командами:
+
+`which cmake`
+
+`cmake --version`
+
+и можно собирать свою несчастную тулзу.
+
+[desc](HREF){:target=\"_blank\"}
+
